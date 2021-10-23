@@ -1,0 +1,309 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(230, 230, 230);
+  padding: 3rem 0rem;
+}
+
+.contenedor {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenido-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.secciones {
+  display: flex;
+  gap: 5rem;
+}
+
+.secciones h2 {
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.logos {
+  display: flex;
+  gap: 5rem;
+}
+
+.presentacion-rapida {
+  background-color: rgb(28, 31, 27);
+}
+
+.nombre {
+  color: rgb(230, 230, 230);
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.ocupacion {
+  text-align: center;
+  color: rgb(192, 192, 192);
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.dev-web {
+  width: 45rem;
+}
+
+.sobre-mi {
+  background-color: rgb(230, 230, 230);
+  padding-top: 5rem;
+  color: rgb(28, 31, 27);
+}
+
+.contenedor-sobre-mi {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenido-sobre-mi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding-bottom: 5rem;
+}
+.foto-perfil img {
+  width: 20rem;
+  border-radius: 10rem;
+}
+
+.texto-presentacion h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.texto-presentacion h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.texto-presentacion p {
+  font-size: 2rem;
+}
+
+.profile {
+  width: 25rem;
+  padding-top: 3rem;
+}
+
+.hobbies h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.hobbies li {
+  font-size: 1.5rem;
+}
+
+.habilidades {
+  background-color: rgb(28, 31, 27);
+  padding-top: 5rem;
+}
+
+.contenedor-habilidades {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.contenido-habilidades {
+  color: rgb(230, 230, 230);
+}
+
+.contenido-habilidades .habi {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.lenguajes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 5rem;
+}
+
+.lenguaje {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.lenguaje h2 {
+  font-size: 2rem;
+}
+.lenguaje h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.contenedor-imagen {
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.porcentaje {
+  width: 30rem;
+}
+
+.proyectos {
+  background-color: rgb(230, 230, 230);
+  padding-top: 5rem;
+  color: rgb(28, 31, 27);
+}
+
+.contenedor-proyectos {
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenido-proyectos .titulo {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 5rem;
+}
+
+.lista-proyectos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 5rem;
+  padding-bottom: 5rem;
+}
+
+.proyecto {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.proyecto h3 {
+  font-size: 2rem;
+}
+
+.botones {
+  margin-top: 1rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.boton {
+  background-color: rgb(28, 31, 27);
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  padding: 1rem 5rem;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.contacto {
+  background-color: rgb(28, 31, 27);
+  padding-top: 5rem;
+  color: rgb(230, 230, 230);
+}
+
+.contenedor-contacto {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contacto-titulo {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.formulario {
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+  padding-bottom: 5rem;
+}
+
+.formulario-sec {
+  display: grid;
+}
+
+label {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  width: 50rem;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+#Mensaje {
+  height: 15rem;
+}
+
+.footer {
+  background-color: rgb(230, 230, 230);
+  padding-top: 3rem;
+  color: rgb(28, 31, 27);
+}
+
+.contenedor-footer{
+  max-width: 110rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenido-footer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.contenido-footer h2{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  grid-column: 1/3;
+}
+.footer-logo{
+  width:10rem;
+}
+
